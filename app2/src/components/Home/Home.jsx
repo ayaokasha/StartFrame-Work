@@ -6,11 +6,12 @@ export default function Home() {
   return (
     <>
       <div className={style.bg}>
-        <div className="d-flex flex-column align-items-center justify-content-center text-center gap-3">
+        <div className="d-flex flex-column align-items-center justify-content-center text-center gap-3 py-3">
           <img
+            className="pt-5"
             src={avatar}
             alt="Avatar"
-            style={{ width: 250 }}
+            style={{ width: 200 }}
           />
           <h1 className="text-white display-4 fw-bold">Start Framework</h1>
 

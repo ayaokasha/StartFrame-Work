@@ -1,0 +1,32 @@
+.bg {
+    background-color: #03988c;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.starWrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.starWrapper::before,
+.starWrapper::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 60px;
+    background-color: white;
+}
+
+.starWrapper::before {
+    margin-right: 15px;
+}
+
+.starWrapper::after {
+    margin-left: 15px;
+}

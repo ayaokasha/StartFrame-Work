@@ -1,0 +1,16 @@
+.customLink {
+    transition: all 0.3s ease-in-out;
+    margin-inline: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.customLink:hover,
+.activeLink {
+    background-color: #02756b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(3, 152, 140, 0.3);
+    border-radius: 15px;
+}
